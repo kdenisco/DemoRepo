@@ -1,1 +1,50 @@
-Hello Hello Hello 
+USE [CIRGDS_ALL]
+GO
+
+/****** Object:  Table [dbo].[100000wrkADDRESS]    Script Date: 2/13/2024 3:20:25 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[100000wrkADDRESS](
+	[idSYSTEM] [int] NULL,
+	[ADDRNBR] [varchar](50) NULL,
+	[ADDADR] [varchar](30) NULL,
+	[UNNBR] [varchar](10) NULL,
+	[PREDIR] [varchar](2) NULL,
+	[STREET] [varchar](28) NULL,
+	[BOXNBR] [varchar](10) NULL,
+	[SUFFIX] [varchar](4) NULL,
+	[PSTDIR] [varchar](2) NULL,
+	[SUNTYP] [varchar](4) NULL,
+	[SUNNBR] [varchar](8) NULL,
+	[CITY] [varchar](28) NULL,
+	[ASTATE] [varchar](2) NULL,
+	[POZIP5] [varchar](7) NULL,
+	[POZIP4] [varchar](6) NULL,
+	[POCRIS] [varchar](4) NULL,
+	[CTYCOD] [varchar](2) NULL,
+	[PODLVP] [int] NULL,
+	[PODLVX] [int] NULL,
+	[PODLVC] [int] NULL,
+	[PODLVD] [varchar](1) NULL,
+	[PODLVS] [int] NULL,
+	[PODTRV] [varchar](6) NULL,
+	[PODLVT] [varchar](1) NULL,
+	[POSEZN] [varchar](1) NULL,
+	[SBEGDT] [varchar](50) NULL,
+	[SENDDT] [varchar](50) NULL,
+	[PODLV] [varchar](1) NULL,
+	[DWLTYP] [varchar](1) NULL,
+	[TMCCOD] [varchar](1) NULL,
+	[ASLCDT] [varchar](50) NULL,
+	[NCOUNT] [varchar](3) NULL,
+	[POVCNT] [varchar](1) NULL,
+	[UDTDAT] [datetime] NULL,
+	[UDTTIM] [varchar](8) NULL
+) ON [PRIMARY]
+GO
+
+
